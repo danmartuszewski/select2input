@@ -1,0 +1,123 @@
+/* 
+    Document   : main.css
+    Created on : 31.05.2011, 22:04
+    Author     : gcdreak
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul { list-style: none;}
+blockquote, q { quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html {font-size:100%;}
+
+body {
+    background:#F7F3E8;
+	line-height: 1;
+}
+
+.clearfix {clear:both;}
+.clearfix:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header, section, footer {
+    padding:2em;
+}
+header {
+    background:#D5E1DD;
+    border-bottom:3px solid #77BED2;
+}
+header h1 {
+    color:#F2583E;
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-size:3em;
+    text-shadow:1px 1px 0px #77BED2;
+}
+header p {
+    color: #4c4c4c;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    margin-top:.5em;
+}
+header a {
+    color:inherit;
+    font-variant: normal;
+    text-decoration:none;
+}
+header a:hover {
+    border-bottom:1px solid;
+}
+header a:active {
+    color:#F2583E;
+}
+h2 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size:1.3em;
+    font-variant: small-caps;
+    margin-bottom:.5em;
+}
+form {
+    margin-bottom:2em;
+}
+input, select {
+    background:#D5E1DD;
+    border:1px solid #747E80;
+    color:#F2583E;
+    font-size:1em;
+    padding:.2em;
+    
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+pre {
+	background: #f0f0f0;
+	background: url(pre_code_bg.gif) repeat-y left top; /*--Background of lined paper--*/
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+    font-size: 12px;
+	line-height: 20px; /*--Height of each line of code--*/
+	margin: 0;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+	padding: 0;
+	width: 600px;
+}

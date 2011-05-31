@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pl-PL">
+    <head>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/select2input.js"></script>
+        <title>Select2input jQuery Plugin</title>
+        <meta charset="utf-8">
+        <link href="main.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#fruit2').select2input();
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>select2input</h1>
+            <p>jQuery plugin by <a href="https://github.com/gcdreak" title="Fork me" target="_blank">gcdreak</a></p>
+        </header>
+        <section>
+            <h2>Normal select</h2>
+            <form action="#" method="get">
+                <select id="fruit" name="fruit">
+                    <option value="apple">Apple</option>
+                    <option value="plum">Plum</option>
+                    <option value="strawberry">Strawberry</option>
+                </select>
+            </form>
+            <h2>select2input (click on field)</h2>
+            <form action="#" method="get">
+                <select id="fruit2" name="fruit2">
+                    <option value="apple">Apple</option>
+                    <option value="plum">Plum</option>
+                    <option value="strawberry">Strawberry</option>
+                </select>
+            </form>
+            <h2>How to use?</h2>
+            <pre>
+                $(document).ready(function() {
+                    $('#fruit2').select2input();
+                });
+            </pre>
+        </section>
+    </body>
+</html>
